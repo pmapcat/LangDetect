@@ -1,7 +1,6 @@
 # Language detector written in Go. It detects one of the following languages
 
-It returns it's name in English, and it's ISO code.
-#Installation
+
 
 ```go
 var LANGMAP = map[string]LangDetectorLangItem{
@@ -36,7 +35,9 @@ var LANGMAP = map[string]LangDetectorLangItem{
 	"Hebrew":     LangDetectorLangItem{ISO: "he", Name: "Hebrew"},
 	"Arabic":     LangDetectorLangItem{ISO: "ar", Name: "Arabic"}}
 ```
-
+    
+It returns it's name in English, and it's ISO code.
+    
 ## It is installed like this
 ```
 go get -u github.com/MichaelLeachim/LangDetect
