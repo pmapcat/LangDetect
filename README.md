@@ -50,7 +50,7 @@ var LANGMAP = map[string]LangDetectorLangItem{
 	"Hebrew":    "טוויטר Politoty - רוסית ולא חדשות האופוזיציה רק מיד ובאופן מלא",
   }
   
- 	detector, err := LangDetect("./bases/langs.gob")
+ 	detector, err := LangDetect()
 	if err != nil {
 		t.Error(err)
 	}
