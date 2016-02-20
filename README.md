@@ -34,7 +34,7 @@ var LANGMAP = map[string]LangDetectorLangItem{
 	"Bulgarian":  LangDetectorLangItem{ISO: "bg", Name: "Bulgarian"},
 	"Hebrew":     LangDetectorLangItem{ISO: "he", Name: "Hebrew"},
 	"Arabic":     LangDetectorLangItem{ISO: "ar", Name: "Arabic"}}
-    ```
+```
 
 ## It is used like this
 
@@ -58,7 +58,7 @@ var LANGMAP = map[string]LangDetectorLangItem{
 		assert.Equal(t, detector(v).Name, k)
 	}
   // PASS
-  ```
+```
   
 ## LICENSE
 MIT License
