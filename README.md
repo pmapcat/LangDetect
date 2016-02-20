@@ -69,7 +69,7 @@ import "github.com/MichaelLeachim/LangDetect"
 		assert.Equal(t, detector(v).Name, k)
 	}
     // PASS
-    ```
+```
     
 ## TODO
 
