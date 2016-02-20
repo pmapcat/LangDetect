@@ -1,6 +1,7 @@
 # Language detector written in Go. It detects one of the following languages
 
 It returns it's name in English, and it's ISO code.
+#Installation
 
 ```go
 var LANGMAP = map[string]LangDetectorLangItem{
@@ -36,6 +37,16 @@ var LANGMAP = map[string]LangDetectorLangItem{
 	"Arabic":     LangDetectorLangItem{ISO: "ar", Name: "Arabic"}}
 ```
 
+## It is installed like this
+```
+go get -u github.com/MichaelLeachim/LangDetect
+```
+
+## Imported is like this
+```
+import "github.com/MichaelLeachim/LangDetect"
+```
+
 ## It is used like this
 
 ```go
@@ -57,9 +68,14 @@ var LANGMAP = map[string]LangDetectorLangItem{
 	for k, v := range LANG_SAMPLES {
 		assert.Equal(t, detector(v).Name, k)
 	}
-  // PASS
-```
-  
+    // PASS
+    ```
+    
+## TODO
+
+* Add more tests(for each language)
+* Add possibility to add new language
+
 ## LICENSE
 MIT License
 
