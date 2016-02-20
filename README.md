@@ -42,7 +42,7 @@ var LANGMAP = map[string]LangDetectorLangItem{
 go get -u github.com/MichaelLeachim/LangDetect
 ```
 
-## Imported is like this
+## It is imported like this
 ```
 import "github.com/MichaelLeachim/LangDetect"
 ```
